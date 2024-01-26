@@ -12,7 +12,7 @@ week as we learn and notes will be displayed and updated accordingly.
 ### Week 2: 
 
 - We learned how to set up a **GitHub** account and create a new *repository*.[^2]
-- Additionally, we learned about **Markdown syntax**. I've demonstrated my knowledge of Markdown in the updated readme file for this repository.
+- Additionally, we learned about **Markdown syntax**. I've demonstrated my knowledge of Markdown in the updated [readme file](https://github.com/Ethonoris/hello-world/blob/master/README.md) for this repository.
 - From now on, each week's notes will be in Markdown complete with lists or tables.
 - **Bold** text is reserved for headers and important technologies referenced in class. *Italicized* text is reserved for important terminology.
 - Footnotes, images, links, and more will be provided where appropriate.[^3]
