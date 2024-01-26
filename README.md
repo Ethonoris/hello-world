@@ -16,7 +16,11 @@ and run it from there!
 
 Here is a picture of my cat, Mona Lisa, just to see if I know how to get this to work with markdown in GitHub: 
 
-![My cat, Mona Lisa, sitting on a cardboard box staring at the camera.]()
+![My cat, Mona Lisa, sitting on a cardboard box staring at the camera.](https://github.com/Ethonoris/hello-world/assets/44278023/d20fd54c-8a20-49a5-b0d1-b84518890a15)
+
+Well that is huge! Apparently markdown doesn't let you specify image size, so HTML will have to do: 
+
+<img src="https://github.com/Ethonoris/hello-world/assets/44278023/d20fd54c-8a20-49a5-b0d1-b84518890a15" width="300" height="400">
 
 ### Programming and Coding
 
@@ -37,14 +41,5 @@ On the other hand, here are some I've worked with that I'm more than a little ru
 
 
 
-
-
-
-
-
-
-
-
-
 [^1]: More or less. 
-[^2]: This one I think will come back to me quicker than some of the others.
+[^2]: I think this one will come back to me quicker than some of the others.
