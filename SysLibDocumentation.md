@@ -28,6 +28,21 @@ week as we learn and notes will be displayed and updated accordingly.
 
 See caption[^5]
 
+### Week 4: 
+
+- **Nano** is a text editor that runs within the command line and is considered user friendly due to being *modeless*.[^6]
+- Shortcuts primarily make use of the control key and other letters in order to save, cut, copy, paste, etc.
+- I find using the alt key with most of the M commands, such as M-6, to be most convenient so far.
+- A nanorc file can be used to configure settings for Nano, including colors, line numbers, and cursor position logging.
+- One thing I noticed was that for my first file, Nano wanted to name it `text.txt` and not what I had created it as, `nano test.txt`[^7]
+- The following are a few screenshots of my initial test run of Nano:
+
+![nano1](https://github.com/Ethonoris/hello-world/assets/44278023/6d2349cb-a132-413f-879b-799cb0d661e0)
+
+![nano2](https://github.com/Ethonoris/hello-world/assets/44278023/59513869-18f8-4b44-94ca-824e94ba8dfe)
+
+![nano3](https://github.com/Ethonoris/hello-world/assets/44278023/514421ee-9ed2-46b2-889e-4e1bad75cb54)
+
 
 
 [^1]: In the command line, the commands to update the VM instance in Ubuntu are 
@@ -40,3 +55,5 @@ See caption[^5]
   This may also include captions for images. 
 [^4]: There is a trade off here between the requirement for a higher standard of user specificity and a greater degree of user control. The more detail that an interface requires, the more likely that it will perform intended operations accurately, although, this tends to make them inherently less friendly to the lay user.
 [^5]: This image of a list of basic CLI commands sourced from [System Librarianship, Version 2](https://cseanburns.github.io/systems-librarianship/p1-systems-librarianship.html) by Sean Burns. 
+[^6]: A modeless text editor is one that doesn't need to be switched back and forth between insert mode, to write text, and command mode, to issue commands in the command line. 
+[^7]: It asked wheather I wanted to save the file under another name after I had used ctrl-o and then enter, and I haven't been able to replicate that. 
