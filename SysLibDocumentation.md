@@ -34,7 +34,7 @@ See caption[^5]
 - Shortcuts primarily make use of the control key and other letters in order to save, cut, copy, paste, etc.
 - I find using the alt key with most of the M commands, such as M-6, to be most convenient so far.
 - A nanorc file can be used to configure settings for Nano, including colors, line numbers, and cursor position logging.
-- One thing I noticed was that for my first file, Nano wanted to name it `text.txt` and not what I had created it as, `nano test.txt`[^7]
+- One thing I noticed was that for my first file, Nano wanted to name it `test.txt` and not what I had created it as, `nano text.txt`[^7]
 - The following are a few screenshots of my initial test run of Nano:
 
 ![nano1](https://github.com/Ethonoris/hello-world/assets/44278023/6d2349cb-a132-413f-879b-799cb0d661e0)
