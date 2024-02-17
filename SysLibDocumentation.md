@@ -43,6 +43,29 @@ See caption[^5]
 
 ![nano3](https://github.com/Ethonoris/hello-world/assets/44278023/514421ee-9ed2-46b2-889e-4e1bad75cb54)
 
+### Week 5: 
+
+- The **grep** command allows you to search through files for specific text line by line in a given file. The following consists of several grep queries I tested.
+- `grep "title" scopus.bib`
+  - This command was my attempt at getting grep to return just the titles of the articles in the bibliographic information. However, there are multiple other lines that contain the word title, in particular, the lines with "abbrev_source_title" but we can exclude this though.
+ 
+![Grep1](https://github.com/Ethonoris/hello-world/assets/44278023/0813b410-3cde-4cf8-a1a1-517b29b62343)
+
+- `grep "title" scopus.bib | grep -v "_title"`
+  - By using the pipe to include the output of one grep command and another, I can get the result I want. Because both types of line that contain "title" have a space and equal sign after the word "title", I had to exclude the excess by using the invert of "_title" instead. 
+
+![grep2](https://github.com/Ethonoris/hello-world/assets/44278023/f9f9314d-c87a-4438-b5f0-c4a17904381b)
+
+- `grep -A4 "author =" scopus.bib`
+  - This allows me to obtain the search line of "author =" and the next four lines after each instance it appears, which are the title, year, journal, and volume for each article. Because articles are the only type that I allowed in my Scopus bibtex file export, this will always return me the desired result.
+ 
+![grep3](https://github.com/Ethonoris/hello-world/assets/44278023/314c6eb7-5c60-4281-bfdb-bc087731e5c4)
+
+- `grep -A4 "author =" scopus.bib > results.txt`
+  - I can write the results of a grep search like this one to a text file to save them for later viewing or separate use. The cat command then shows the output from grep in the "results.txt" file.[^8] I can also later view and edit it in Nano, separate from the original scopus.bib file, if I want. 
+ 
+![grep4](https://github.com/Ethonoris/hello-world/assets/44278023/c8be8e08-cfc0-41c9-b541-75c291492ccd)
+
 
 
 [^1]: In the command line, the commands to update the VM instance in Ubuntu are 
@@ -57,3 +80,4 @@ See caption[^5]
 [^5]: This image of a list of basic CLI commands sourced from [System Librarianship, Version 2](https://cseanburns.github.io/systems-librarianship/p1-systems-librarianship.html) by Sean Burns. 
 [^6]: A modeless text editor is one that doesn't need to be switched back and forth between insert mode, to write text, and command mode, to issue commands in the command line. 
 [^7]: It asked wheather I wanted to save the file under another name after I had used ctrl-o and then enter, and I haven't been able to replicate that. 
+[^8]: The "results.txt" file did not exist prior to me directing the grep results to it. Like with some other commands, directing this output to "results.txt" created that text file. 
