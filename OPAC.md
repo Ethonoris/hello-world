@@ -146,5 +146,17 @@ insert into books
 ('Philippa Mein Smith', 'A Concise History of New Zealand', 'Cambridge University Press', '2012-02-06'),
 ('Tom Nichols', 'The Death of Expertise', 'Oxford University Press', '2024-03-06');
 ```
+- Now let's try to pull one up!
 
+![OPAC4](https://github.com/Ethonoris/hello-world/assets/44278023/248c2289-ac5f-4ddb-a1d5-2251895ee876)
+
+![OPAC5](https://github.com/Ethonoris/hello-world/assets/44278023/70673ead-1297-40cc-9a5b-99e46dc9f470)
+
+- But what happens if you enter something generic? Will we get multiple results?
+
+![OPAC6](https://github.com/Ethonoris/hello-world/assets/44278023/bb4e887d-de7c-44a3-ac44-ec9d7e72a308)
+
+- Yes, that's perfect!
+
+![OPAC7](https://github.com/Ethonoris/hello-world/assets/44278023/106f09b6-313a-4276-a66a-66d0a5476b0f)
 
