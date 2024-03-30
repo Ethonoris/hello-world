@@ -73,7 +73,13 @@ http://11.111.111.11/wordpress/wp-admin/install.php
 
 - Now all we need to do is set up a basic site and make sure that it works!
 
+![Wordpress1](https://github.com/Ethonoris/hello-world/assets/44278023/4838ae7e-7937-4aa2-aa8a-18c6185fcd90)
 
+![Wordpress2](https://github.com/Ethonoris/hello-world/assets/44278023/c4f02f7c-3542-46c9-81b3-a2eb34b6963d)
+
+![Wordpress3](https://github.com/Ethonoris/hello-world/assets/44278023/34e1f4cc-b98b-44e9-b6c2-2ed8e2427421)
+
+### Hooray, it works and it's looking great!
 
 [^1]: This password should be an actual password that you write down. the X's are just a stand in for a password. 
 [^2]: Just like before, the external IP address shown above is a stand in, and should be replaced with your own external IP. 
